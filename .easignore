@@ -1,0 +1,6 @@
+# EAS Build - ignore root-level tooling (monorepo)
+scripts/
+.idea/
+node_modules/
+PetNergy/node_modules/
+

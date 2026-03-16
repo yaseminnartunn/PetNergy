@@ -1,0 +1,25 @@
+{
+  "expo": {
+    "name": "PetNergy",
+    "slug": "petnergy",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "requireFullScreen": true
+    },
+    "android": {
+      "package": "com.petnergy.app",
+      "softwareKeyboardLayoutMode": "pan"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "4a9b82c8-76d4-4eb4-9fe7-acb2918e4529"
+      }
+    }
+  }
+}
