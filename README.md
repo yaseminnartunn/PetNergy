@@ -52,8 +52,6 @@ Bu sayede kullanıcı kendi bakım rutinini gözlemleyebilir ve geliştirebilir.
 
 ## Ekran Görüntüleri
 
-## 📱 Ekran Görüntüleri
-
 | Rozetler ve Seviye | Profil | Bakım Ekranı | Giriş |
 |:---:|:---:|:---:|:---:|
 | ![Rozetler](./resimler/01_rozetler.jpeg) | ![Profil](./resimler/02_profil.jpeg) | ![Bakim](./resimler/03_bakim.jpeg) | ![Giris](./resimler/06_giris.jpeg) |
@@ -61,7 +59,6 @@ Bu sayede kullanıcı kendi bakım rutinini gözlemleyebilir ve geliştirebilir.
 | Rozet Örnekleri | Bakım Akışı |
 |:---:|:---:|
 | ![Rozet Ornek](./resimler/04_rozet_ornekleri.jpeg) | ![Bakim Akis](./resimler/05_bakim_akis.jpeg) |
-
 
 ## Kurulum & Çalıştırma (Web)
 
@@ -100,8 +97,7 @@ npx expo start -c
 
 
 > Not: Build süreci bulut üzerinde (EAS) gerçekleştiği için Expo Go yapısını kesinlikle bozmaz.
-
-[Uygulama Tanıtım Videosunu İzlemek İçin Tıklayın](https://www.youtube.com/watch?v=jJhYUX9H1Sw)
+  - `https://youtube.com/shorts/jJhYUX9H1Sw?si=_ZWl9yp7gcOpQ1NM`
 
 ## Proje Yapısı
 
