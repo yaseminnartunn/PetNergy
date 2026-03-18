@@ -54,7 +54,7 @@ Bu sayede kullanıcı kendi bakım rutinini gözlemleyebilir ve geliştirebilir.
 
 | Rozetler ve Seviye | Profil | Bakım Ekranı | Giriş |
 |:---:|:---:|:---:|:---:|
-| ![Rozetler]() | ![Profil](screenshots/02_profil.jpeg) | ![Bakim](./screenshots/03_bakim.jpeg) | ![Giris](./screenshots/06_giris.jpeg) |
+| ![Rozetler]() | ![Profil](\screenshots\01_rozetler.jpeg) | ![Bakim](./screenshots/03_bakim.jpeg) | ![Giris](./screenshots/06_giris.jpeg) |
 
 | Rozet Örnekleri | Bakım Akışı |
 |:---:|:---:|
