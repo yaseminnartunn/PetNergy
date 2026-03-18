@@ -54,11 +54,11 @@ Bu sayede kullanıcı kendi bakım rutinini gözlemleyebilir ve geliştirebilir.
 
 | Rozetler ve Seviye | Profil | Bakım Ekranı | Giriş |
 |:---:|:---:|:---:|:---:|
-| ![Rozetler](/.PetNergy/resimler/01_rozetler.jpeg) | ![Profil](./resimler/02_profil.jpeg) | ![Bakim](./resimler/03_bakim.jpeg) | ![Giris](./resimler/06_giris.jpeg) |
+| ![Rozetler](./PetNergy/resimler/01_rozetler.jpeg) | ![Profil](./PetNergy/resimler/02_profil.jpeg) | ![Bakım](./PetNergy/resimler/03_bakim.jpeg) | ![Giriş](./PetNergy/resimler/06_giris.jpeg) |
 
 | Rozet Örnekleri | Bakım Akışı |
 |:---:|:---:|
-| ![Rozet Ornek](./resimler/04_rozet_ornekleri.jpeg) | ![Bakim Akis](./resimler/05_bakim_akis.jpeg) |
+| ![Rozet Örnekleri](./PetNergy/resimler/04_rozet_ornekleri.jpeg) | ![Bakım Akışı](./PetNergy/resimler/05_bakim_akis.jpeg) |
 
 ## Kurulum & Çalıştırma (Web)
 
