@@ -54,11 +54,11 @@ Bu sayede kullanıcı kendi bakım rutinini gözlemleyebilir ve geliştirebilir.
 
 | Rozetler ve Seviye | Profil | Bakım Ekranı | Giriş |
 |:---:|:---:|:---:|:---:|
-| ![Rozetler](./screenshots/01_rozetler.jpeg) | ![Profil](./screenshots/02_profil.jpeg) | ![Bakim](./screenshots/03_bakim.jpeg) | ![Giris](./screenshots/06_giris.jpeg) |
+| ![Rozetler](./resimler/01_rozetler.jpeg) | ![Profil](./resimler/02_profil.jpeg) | ![Bakim](./resimler/03_bakim.jpeg) | ![Giris](./resimler/06_giris.jpeg) |
 
 | Rozet Örnekleri | Bakım Akışı |
 |:---:|:---:|
-| ![Rozet Ornek](./screenshots/04_rozet_ornekleri.jpeg) | ![Bakim Akis](./screenshots/05_bakim_akis.jpeg) |
+| ![Rozet Ornek](./resimler/04_rozet_ornekleri.jpeg) | ![Bakim Akis](./resimler/05_bakim_akis.jpeg) |
 
 ## Kurulum & Çalıştırma (Web)
 
@@ -95,9 +95,6 @@ npx expo start -c
 - Expo Go → **Scan QR code** ile QR’ı okutun.
 - `-c` cache temizler; “eski hata / eski bundle” problemlerini azaltır.
 
-## APK (indirilebilir)
-
--
 
 > Not: Build süreci bulut üzerinde (EAS) gerçekleştiği için Expo Go yapısını kesinlikle bozmaz.
   - `https://youtube.com/shorts/jJhYUX9H1Sw?si=_ZWl9yp7gcOpQ1NM`
@@ -106,7 +103,7 @@ npx expo start -c
 
 - **Web uygulaması**: `src/`
 - **Mobil uygulama (Expo)**: `mobile/`
-- **APK çıktısı (repo içinde)**: `APK/`
+
 
 ## Scripts
 
