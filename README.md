@@ -52,13 +52,19 @@ Bu sayede kullanıcı kendi bakım rutinini gözlemleyebilir ve geliştirebilir.
 
 ## Ekran Görüntüleri
 
-| Rozetler ve Seviye | Profil | Bakım Ekranı | Giriş |
-|:---:|:---:|:---:|:---:|
-| ![Rozetler](/.PetNergy/screenshots/01_rozetler.jpeg) | ![Profil](./screenshots/02_profil.jpeg) | ![Bakim](./screenshots/03_bakim.jpeg) | ![Giris](./screenshots/06_giris.jpeg) |
+## 📱 Ekran Görüntüleri
 
-| Rozet Örnekleri | Bakım Akışı |
-|:---:|:---:|
-| ![Rozet Ornek](./screenshots/04_rozet_ornekleri.jpeg) | ![Bakim Akis](./screenshots/05_bakim_akis.jpeg) |
+![Rozetler](./screenshots/01_rozetler.jpeg)
+
+![Profil](./screenshots/02_profil.jpeg)
+
+![Bakım](./screenshots/03_bakim.jpeg)
+
+![Giriş](./screenshots/06_giris.jpeg)
+
+![Rozet Örnekleri](./screenshots/04_rozet_ornekleri.jpeg)
+
+![Bakım Akışı](./screenshots/05_bakim_akis.jpeg)
 
 ## Kurulum & Çalıştırma (Web)
 
