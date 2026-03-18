@@ -9,14 +9,56 @@ PetNergy, **evcil hayvan bakımı + oyunlaştırma** fikrini tek bir akışta bi
 
 Kullanıcıya “bakım” aksiyonlarını (besle/oyna/dinlen) yaptırırken; XP, bonus XP, mini görev ve ödül/rozet hissiyle **oyunlaştırılmış bir deneyim** sunmak.
 
-## Oyunlaştırma özellikleri
+## Oyunlaştırma Özellikleri
 
-- **Pet oluşturma**: İsim, tür, habitat
-- **Stat döngüsü**: Tokluk / Mutluluk / Enerji
-- **Bakım aksiyonları**: Besle, Oyna, Dinlen → stat + XP etkileri
-- **Mini görev**: Mutluluk %85 üstüne çıkınca bonus XP kazanma
-- **Ödüller ekranı**: Seviye ilerleme kartı + rozet/başarım kartları (UI)
-- **Anlık pet günlüğü**: Son aksiyonlar ve mini log akışı (mobil)
+PetNergy, klasik evcil hayvan bakım uygulamalarından farklı olarak **tam bir oyunlaştırma deneyimi** sunar. Kullanıcı, sanal bir pet'in bakımlarını üstlenirken oyun mekanikleriyle motive edilir ve her aksiyonu bir ilerleme hissine dönüştürür.
+
+### 🐾 Pet Oluşturma & Kişiselleştirme
+Kullanıcı uygulamaya başladığında kendi sanal evcil hayvanını yaratır:
+- **İsim:** Pet'e özel bir isim verme (örn: "Nemo", "Pamuk", "Rocky")
+- **Tür Seçimi:** Balık, kaplumbağa, kuş gibi farklı türler (şu an sadece balık aktif)
+- **Habitat:** Mercan koyu, tatlısu akvaryumu, göl ortamı gibi yaşam alanları
+- **Avatar:** Seçilen türe göre otomatik emoji/animasyon desteği
+
+### 📊 Stat Döngüsü & Bakım Mekaniği
+Her pet'in sürekli değişen 3 temel ihtiyacı vardır:
+- **Tokluk (0-100%):** Pet'i beslemek artırır, zamanla azalır. Düşük tokluk → halsizlik
+- **Mutluluk (0-100%):** Oynamak artırır. Yüksek mutluluk → bonus XP kazancı
+- **Enerji (0-100%):** Dinlenmek artırır, aksiyonlar tüketir. Düşük enerji → aksiyon kısıtlaması
+
+Bu üç stat birbirine bağlıdır: Mutlu bir pet daha hızlı enerji kazanır, tok bir pet daha iyi dinlenir.
+
+### 🎯 Bakım Aksiyonları & XP Sistemi
+Kullanıcı 3 temel bakım aksiyonu ile pet'ine etki eder:
+- **🍕 Besle:** Tokluk +20, Enerji +5, XP +10
+- **🎮 Oyna:** Mutluluk +25, Enerji -10, XP +15
+- **😴 Dinlen:** Enerji +30, Tokluk -5, XP +5
+
+Her aksiyon anında geri bildirim verir: XP artışı, stat değişimi, animasyon ve log kaydı.
+
+### 🏆 Seviye & Rozet Sistemi
+- **XP Birikimi:** Her aksiyon XP kazandırır, 100 XP'de seviye atlanır
+- **Rozetler/Başarımlar:** "İlk Bakım", "Mutluluk Patlaması", "Rutin Ustası" gibi özel başarımlar
+- **Günlük Seri:** Her gün giriş yapıldığında seri sayacı artar, bonus XP verir
+- **Seviye İlerlemesi:** Görsel progress bar ile anlık takip
+
+### 📝 Anlık Pet Günlüğü
+Tüm aksiyonlar kronolojik olarak kaydedilir:
+- "Günün mini görevi tamamlandı! +20 XP"
+- "Oyun oynandı! +10 XP"
+- Zaman damgası ile akış takibi
+
+Bu sayede kullanıcı kendi bakım rutinini gözlemleyebilir ve geliştirebilir.
+
+## Ekran Görüntüleri
+
+| Rozetler ve Seviye | Profil | Bakım Ekranı | Giriş |
+|:---:|:---:|:---:|:---:|
+| ![Rozetler](./screenshots/01_rozetler.jpeg) | ![Profil](./screenshots/02_profil.jpeg) | ![Bakim](./screenshots/03_bakim.jpeg) | ![Giris](./screenshots/06_giris.jpeg) |
+
+| Rozet Örnekleri | Bakım Akışı |
+|:---:|:---:|
+| ![Rozet Ornek](./screenshots/04_rozet_ornekleri.jpeg) | ![Bakim Akis](./screenshots/05_bakim_akis.jpeg) |
 
 ## Kurulum & Çalıştırma (Web)
 
@@ -55,15 +97,10 @@ npx expo start -c
 
 ## APK (indirilebilir)
 
-- APK dosyası repo içinde şu konumda paylaşılacaktır:
-  - `APK/PetNergy.apk`
+-
 
-> Not: Şu an repoda APK dosyası yok. `APK/` klasörüne ekleyip yukarıdaki yolu güncelleyebilirsin.
-
-## 1 Dakikalık Tanıtım Videosu (YouTube)
-
-- Tanıtım videosu linki:
-  - `https://youtube.com/` **(buraya kendi videonun linkini yapıştır)**
+> Not: Build süreci bulut üzerinde (EAS) gerçekleştiği için Expo Go yapısını kesinlikle bozmaz.
+  - `https://youtube.com/shorts/jJhYUX9H1Sw?si=_ZWl9yp7gcOpQ1NM`
 
 ## Proje Yapısı
 
@@ -83,4 +120,8 @@ npx expo start -c
 
 - `cd mobile && npx expo start`: Expo dev server
 - `cd mobile && npx expo start -c`: cache temizleyerek başlat
+
+> 📄 Kullanıcı geri bildirim raporu: `docs/Kullanici_Geri_Bildirim_Raporu.md`
+
+> ⚠️ **APK Durumu:** Expo prebuild yapıldı ancak Gradle build sırasında NDK/React Native Worklets uyumsuzluğu nedeniyle APK oluşturulamadı. Çözüm için Java 17 ve newArchEnabled ayarları yapıldı, build devam ediyor.
 

@@ -1,0 +1,120 @@
+{
+  "name": "Pet",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "Evcil hayvan\u0131n ad\u0131"
+    },
+    "type": {
+      "type": "string",
+      "enum": [
+        "Kedi",
+        "Kopek",
+        "Balik",
+        "Mini Canavar"
+      ],
+      "default": "Kedi",
+      "description": "Evcil hayvan t\u00fcr\u00fc"
+    },
+    "habitat": {
+      "type": "string",
+      "enum": [
+        "Sehir Cati",
+        "Bulut Park",
+        "Mercan Koyu"
+      ],
+      "default": "Bulut Park",
+      "description": "Ya\u015fam ortam\u0131"
+    },
+    "accessory": {
+      "type": "string",
+      "enum": [
+        "Parlak Fiyonk",
+        "Mini Pelerin",
+        "Yildiz Tasma"
+      ],
+      "default": "Parlak Fiyonk",
+      "description": "Aksesuar"
+    },
+    "level": {
+      "type": "number",
+      "default": 1,
+      "description": "Seviye"
+    },
+    "xp": {
+      "type": "number",
+      "default": 0,
+      "description": "Deneyim puan\u0131"
+    },
+    "hunger": {
+      "type": "number",
+      "default": 50,
+      "description": "Tokluk seviyesi (0-100)"
+    },
+    "happiness": {
+      "type": "number",
+      "default": 50,
+      "description": "Mutluluk seviyesi (0-100)"
+    },
+    "energy": {
+      "type": "number",
+      "default": 50,
+      "description": "Enerji seviyesi (0-100)"
+    },
+    "bonus_xp": {
+      "type": "number",
+      "default": 0,
+      "description": "Bonus deneyim puan\u0131"
+    },
+    "streak_days": {
+      "type": "number",
+      "default": 0,
+      "description": "Ard\u0131\u015f\u0131k g\u00fcn say\u0131s\u0131"
+    },
+    "mood": {
+      "type": "string",
+      "enum": [
+        "Neseli",
+        "Mutlu",
+        "Normal",
+        "Yorgun",
+        "Ac"
+      ],
+      "default": "Neseli",
+      "description": "Ruh hali"
+    },
+    "total_feed": {
+      "type": "number",
+      "default": 0,
+      "description": "Toplam beslenme say\u0131s\u0131"
+    },
+    "total_play": {
+      "type": "number",
+      "default": 0,
+      "description": "Toplam oyun say\u0131s\u0131"
+    },
+    "total_rest": {
+      "type": "number",
+      "default": 0,
+      "description": "Toplam dinlenme say\u0131s\u0131"
+    },
+    "last_interaction": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Son etkile\u015fim zaman\u0131"
+    },
+    "achievements": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "default": [],
+      "description": "Kazan\u0131lan ba\u015far\u0131mlar"
+    }
+  },
+  "required": [
+    "name",
+    "type"
+  ]
+}

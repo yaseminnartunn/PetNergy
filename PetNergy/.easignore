@@ -1,0 +1,17 @@
+node_modules
+node_modules/
+.expo
+.expo/
+dist
+dist/
+mobile/node_modules
+mobile/node_modules/
+.idea
+.idea/
+.vscode
+.vscode/
+*.log
+build_error.txt
+build_error_2.txt
+/APK
+/APK/
