@@ -54,17 +54,14 @@ Bu sayede kullanıcı kendi bakım rutinini gözlemleyebilir ve geliştirebilir.
 
 ## 📱 Ekran Görüntüleri
 
-![Rozetler](./screenshots/01_rozetler.jpeg)
+| Rozetler ve Seviye | Profil | Bakım Ekranı | Giriş |
+|:---:|:---:|:---:|:---:|
+| ![Rozetler](./resimler/01_rozetler.jpeg) | ![Profil](./resimler/02_profil.jpeg) | ![Bakim](./resimler/03_bakim.jpeg) | ![Giris](./resimler/06_giris.jpeg) |
 
-![Profil](./screenshots/02_profil.jpeg)
+| Rozet Örnekleri | Bakım Akışı |
+|:---:|:---:|
+| ![Rozet Ornek](./resimler/04_rozet_ornekleri.jpeg) | ![Bakim Akis](./resimler/05_bakim_akis.jpeg) |
 
-![Bakım](./screenshots/03_bakim.jpeg)
-
-![Giriş](./screenshots/06_giris.jpeg)
-
-![Rozet Örnekleri](./screenshots/04_rozet_ornekleri.jpeg)
-
-![Bakım Akışı](./screenshots/05_bakim_akis.jpeg)
 
 ## Kurulum & Çalıştırma (Web)
 
